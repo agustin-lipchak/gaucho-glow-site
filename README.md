@@ -1,73 +1,32 @@
-# Welcome to your Lovable project
+# Gaucho Glow Site
 
-## Project info
+Gaucho Glow Site is a premium, conversion-centric web platform engineered specifically for the hospitality and high-end restaurant industry. As showcased in the production preview (`chrome-capture-2026-06-27 (3).jpg`), the application balances highly polished visual aesthetics with strict performance optimizations, fluid responsive layouts, and a robust client-side reservation engine.
 
-**URL**: https://lovable.dev/projects/90d43905-d504-4cff-bb7c-d7d202cc0e65
+### 🏗️ Key Architectural Highlights
+* **Robust Form & Booking Validation:** Orchestrates complex customer booking flows ("Reservá Tu Mesa") using `react-hook-form` paired with `zod` for real-time, schema-driven runtime validation.
+* **Fluid Asset & Layout Delivery:** Tailored for fast Core Web Vitals and SEO performance utilizing Vite's optimized bundling, custom Tailwind CSS utility tokens, and smooth hardware-accelerated transitions via `embla-carousel-react`.
+* **State-Driven Interactive UI Elements:** Leverages headless UI primitives from Radix UI (such as Accordions for the FAQ section and accessible Dialogs/Drawers) to ensure full screen-reader compliance and seamless interactive states.
+* **Data & Date Orchestration:** Integrates `react-day-picker` and `date-fns` to manage complex localization, availability scheduling, and date parsing directly within the reservation subsystem.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### 🚀 Key Features
 
-**Use Lovable**
+* **High-Conversion Showcase Modules:** Fluid item carousels and dynamic testimonial sections tailored to maximize user engagement and highlight signature culinary dishes.
+* **End-to-End Reservation Engine:** Fully interactive table booking form featuring real-time input validation, responsive step flows, and accessible date selection.
+* **Mobile-First Interactive Components:** Seamless mobile experience utilizing `vaul` to present sleek, native-feeling bottom sheets for menus and booking drawers on small viewports.
+* **Optimized Accordion Systems:** Clean and scannable Frequently Asked Questions (FAQ) module built to handle multi-panel toggles without performance degradation.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/90d43905-d504-4cff-bb7c-d7d202cc0e65) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🛠️ Tech Stack
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/90d43905-d504-4cff-bb7c-d7d202cc0e65) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+| Layer | Technology | Description |
+| :--- | :--- | :--- |
+| **Core Engine** | React 18 & TypeScript | Strict type safety across UI components and booking payloads. |
+| **Build Pipeline** | Vite | Next-generation tooling for instant HMR and lightweight builds. |
+| **Scheduling Core** | React Day Picker & Date-fns | Modular date arithmetic and scheduling UI components. |
+| **Form Management** | React Hook Form & Zod | Asynchronous validation mechanics for secure client data capture. |
+| **Layout & Carousels**| Embla Carousel React | Extensible, touch-responsive carousel components. |
+| **UI Architecture** | Radix UI Primitives & Shadcn | Primitive design tokens optimized for styling flexibility. |
+| **Styling Suite** | Tailwind CSS & Lucide Icons | Utility-first styling workflow combined with crisp vector iconography. |
