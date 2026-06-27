@@ -1,6 +1,6 @@
 # Gaucho Glow Site
 
-Gaucho Glow Site is a premium, conversion-centric web platform engineered specifically for the hospitality and high-end restaurant industry. As showcased in the production preview (`chrome-capture-2026-06-27 (3).jpg`), the application balances highly polished visual aesthetics with strict performance optimizations, fluid responsive layouts, and a robust client-side reservation engine.
+Gaucho Glow Site is a premium, conversion-centric web platform engineered specifically for the hospitality and high-end restaurant industry. The application balances highly polished visual aesthetics with strict performance optimizations, fluid responsive layouts, and a robust client-side reservation engine.
 
 ### 🏗️ Key Architectural Highlights
 * **Robust Form & Booking Validation:** Orchestrates complex customer booking flows ("Reservá Tu Mesa") using `react-hook-form` paired with `zod` for real-time, schema-driven runtime validation.
